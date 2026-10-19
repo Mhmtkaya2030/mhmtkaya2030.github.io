@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deniz İskenderhan — Resmi Web Sitesi</title>
+    <style>
+        /* Renk Paleti ve Temel Ayarlar */
+        :root {
+            --gece-mavisi: #0a1128;
+            --kuf-yesili: #4f6d5a;
+            --amber-sarisi: #ffb703;
+            --acik-metin: #e0e1dd;
+        }
+
+        body {
+            background-color: var(--gece-mavisi);
+            color: var(--acik-metin);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Başlık Alanı */
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--kuf-yesili);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--amber-sarisi);
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin: 0 0 10px 0;
+        }
+
+        .subtitle {
+            color: var(--kuf-yesili);
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Alıntı / Manifesto */
+        .quote {
+            font-style: italic;
+            text-align: center;
+            color: var(--kuf-yesili);
+            margin: 30px 0;
+            padding: 0 40px;
+            font-size: 1.1rem;
+        }
+
+        /* Bölümler */
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: var(--amber-sarisi);
+            border-left: 4px solid var(--kuf-yesili);
+            padding-left: 15px;
+            font-size: 1.5rem;
+        }
+
+        p {
+            text-align: justify;
+            color: var(--acik-metin);
+        }
+
+        /* Diskografi Listesi */
+        .track-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .track-item {
+            background-color: rgba(79, 109, 90, 0.1);
+            border: 1px solid var(--kuf-yesili);
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .track-name {
+            font-weight: bold;
+            color: var(--acik-metin);
+        }
+
+        .track-credits {
+            font-size: 0.9rem;
+            color: var(--kuf-yesili);
+        }
+
+        .track-credits strong {
+            color: var(--amber-sarisi);
+        }
+
+        /* İletişim Alanı */
+        .contact-box {
+            border: 1px dashed var(--amber-sarisi);
+            padding: 20px;
+            text-align: center;
+            border-radius: 4px;
+            margin-top: 50px;
+        }
+
+        .contact-link {
+            color: var(--amber-sarisi);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.8rem;
+            color: var(--kuf-yesili);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>DENİZ İSKENDERHAN</h1>
+            <div class="subtitle">Resmi Web Sitesi</div>
+        </header>
+
+        <div class="quote">
+            "Gecenin ve şehir ışıklarının ardında kalan, anlatılmamış hikayelerin sesi."
+        </div>
+
+        <section id="hakkinda">
+            <h2>Hakkında</h2>
+            <p>
+                Deniz İskenderhan, modern ve bağımsız müzik sahnesinde kendine has karanlık, atmosferik ve derinlikli tarzıyla yürüyen bir yorumcu ve şarkıcıdır. Popüler kültürün getirdiği geçici gürültülerden uzak durarak, insan ruhunun gizli kalmış yönlerine ve içsel yolculuklara dokunan nitelikli yapıtlar seslendirmeyi tercih eder. Şarkılarında edebi derinlik, sakin ama vakur bir sanatsal duruş ön plandadır.
+            </p>
+        </section>
+
+        <section id="diskografi">
+            <h2>Resmi Diskografi</h2>
+            <p>Dijital platformlarda yayınlanan resmi tekliler ve eser künyeleri:</p>
+            
+            <ul class="track-list">
+                <li class="track-item">
+                    <span class="track-name">Reçete (Single)</span>
+                    <span class="track-credits">Söz & Müzik: <strong>Mehmet Kaya</strong></span>
+                </li>
+                <li class="track-item">
+                    <span class="track-name">Hipnoz (Single)</span>
+                    <span class="track-credits">Söz & Müzik: <strong>Mehmet Kaya</strong></span>
+                </li>
+                <li class="track-item">
+                    <span class="track-name">Gri Sularda (Single)</span>
+                    <span class="track-credits">Söz & Müzik: <strong>Mehmet Kaya</strong></span>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contact-box">
+            <h2>İletişim & İş Birlikleri</h2>
+            <p>Resmi basın bültenleri, lisanslama, ortaklıklar ve proje yönetimi için aşağıdaki kurumsal kanal üzerinden iletişime geçebilirsiniz:</p>
+            <a href="mailto:mhmtkaya2030@gmail.com" class="contact-link">mhmtkaya2030@gmail.com</a>
+        </section>
+
+        <footer>
+            &copy; 2026 Deniz İskenderhan. Tüm Hakları Saklıdır.
+        </footer>
+    </div>
+
+</body>
+</html>
